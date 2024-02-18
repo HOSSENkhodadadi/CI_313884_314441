@@ -46,4 +46,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 - This implementation was inspired by the Quixo game and the MinMax algorithm.
-- Special thanks to the contributors and maintainers of the Quixo game and MinMax algorithm resources.
