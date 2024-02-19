@@ -1,5 +1,5 @@
 # Quixo MinMax Strategy README
-
+Please read the Usage section.
 ## Overview
 This repository contains a Python implementation of a MinMax strategy for playing the game of Quixo. Quixo is a two-player abstract strategy board game where players take turns making moves to align five of their pieces either horizontally, vertically, or diagonally, or force their opponent to make an illegal move.
 
