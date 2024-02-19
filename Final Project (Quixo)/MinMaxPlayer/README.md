@@ -21,7 +21,10 @@ This repository contains a Python implementation of a MinMax strategy for playin
 ### Usage
 1. Integrate the `MinMaxPlayer` class into your Quixo game implementation.
 2. Instantiate `MinMaxPlayer` with appropriate parameters (player ID and depth).
-3. Call the `make_move()` method of the `MinMaxPlayer` instance when it's the AI player's turn.
+3. Set minmaxID = 0 if minimax_player is the first player put minmaxID = 0 otherwise minmaxID = 1
+4. minimax_player = MinMaxPlayer(minmaxID, 3)
+5. random_player = RandomPlayer()
+5. Call the `make_move()` method of the `MinMaxPlayer` instance when it's the AI player's turn.
 
 ### Customization
 - Adjust the depth parameter in the `MinMaxPlayer` constructor to control the depth of the MinMax search.
